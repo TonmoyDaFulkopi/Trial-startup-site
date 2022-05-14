@@ -1,0 +1,52 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /* Used from CSS TRICKS, to make the background picture in the center and seem convenient */
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* To make a gap between */
+.buffer{
+  height: 200px;
+}
+
+hr{
+  border-color: aliceblue;
+  border-width: 2px;
+  max-width: 200px;
+}
+
+h1{
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+/* For button */
+
+.btn{
+  text-transform: uppercase;
+  border-radius: 200px;
+  font-weight: 600;
+  color: rgb(230, 228, 225);
+
+  /* button bg */
+  background-color: rgb(201, 138, 102);
+  border-color: rgb(201, 138, 102);
+}
+
+.btn:hover{
+  background-color: rgb(136, 90, 63);
+  border-color: rgb(136, 90, 63);
+  color: rgb(239, 246, 252);
+  border-width: 4px;
+}
+
+.btn-xl{
+  padding: 1rem 2rem;
+}
